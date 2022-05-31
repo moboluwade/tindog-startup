@@ -1,0 +1,181 @@
+
+/* sovereign html selector tags */
+body{
+	font-family: 'Montserrat-Black', sans-serif;
+	text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Monserrat-Black', sans-serif;
+	font-weight: 900;
+}
+p{
+	color: #8f8f8f;
+	line-height: 2;
+}
+
+/* Headings */
+.big-heading{
+	color: white;
+	font-family: 'Montserrat-Black', sans-serif;
+	font-size: 3rem;
+	line-height: 1.5;
+	font-weight: 900;
+	margin-top: 30px;
+	width: 100%;
+}
+.section-heading{
+	line-height: 1.5;
+	font-size: 3rem;
+}
+
+/* Navbar*/
+.container-fluid{
+	padding: 7% 15%;
+}
+.nav-container{
+	padding: auto 15px;
+}
+.navbar-brand{
+	font-size: 3rem;
+}
+.navbar-nav{
+	font-weight: 500;
+}
+.navbar-title-font{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+}
+.nav-item{
+	font-size: 1.3rem;
+	font-weight: 700;
+	padding-left: 1rem;
+}
+
+
+/* Title */
+#title{
+	background-color: #ff4c68;
+	padding-bottom: 50px;
+}
+#title .container-fluid{
+	padding: 3% 15% 7%
+}
+.custom-title-container{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+/*Intro page */
+.btn{
+	margin: 0% 3% 5% 0%;
+}
+.iphone{
+	width: 80%;
+	margin-top: 50px;
+}
+.iphone-div{
+	position: relative;
+}
+.iphone{
+	width: 60%;
+}
+
+/* Media Query */
+@media screen and (min-width: 992px){
+	.iphone{
+		position: absolute;
+		right: 100px;
+		transform: rotate(22deg);
+	}
+	.big-heading{
+		text-align: left;
+	}
+	#features{
+		position: relative;
+		z-index: 2;
+	}
+	.custom-title-div{
+		text-align: left;
+	}
+}
+
+/* Features*/
+#features{
+	background-color: #ffffff;
+}
+.feature-box{
+	padding: 4.5%;
+}
+.feature-title{
+	font-size: 1.5rem;
+}
+.icon{
+	color: #ef8172;
+	margin-bottom: 1rem;
+}
+.icon:hover{
+	color: #ff4c68;
+}
+
+/* Testimonial */
+#testimonials{
+	background-color: #ef8172;
+	color: #ffffff;
+}
+.testimonial-image{
+	border-radius: 100%;
+	width: 10%;
+	margin: 20px;
+}
+.testimonial-text{
+	line-height: 1.5;
+	font-size: 3rem;
+}
+
+/* Press */
+#press{
+	background-color: #ef8172;
+	padding-bottom: 3%;
+}
+.press-logo{
+	width: 15%;
+	margin: 20px 20px 50px;
+}
+
+
+ /* Pricing */
+#pricing{
+	background-color: #ffffff;
+	margin: 100px auto 100px;
+}
+.pricing-container{
+	padding: 3% 20%;
+}
+.card-div{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.price-text{
+	line-height: 1.5;
+	font-size: 3rem;
+}
+
+/* CTA */
+#cta{
+	background-color: #ff4c68;
+}
+.cta-heading{
+	color: #ffffff;
+	font-weight: 900;
+	font-size: 3rem;
+	line-height: 2;
+}
+/* Footer */
+#footer{
+	background-color: #ffffff;
+	padding: 100px;
+}
+.footer-icons{
+	margin: auto 6px;
+}
